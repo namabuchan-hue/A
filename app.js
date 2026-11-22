@@ -1,7 +1,7 @@
 import { vitalLimits, applyVitalAction, advanceVitals, hungerStage, hungerMoment } from './vital-state.js';
 import { createEndScreen } from './end-screen.js';
 import { nextRepeatStreak } from './action-repeat.js';
-import { pickupTypes, createIndividual, individualProfile, individualInitialEmotions, individualCareCandidates, traitFactor } from './individuality.js';
+import { createIndividual, individualProfile, individualInitialEmotions, individualCareCandidates, traitFactor } from './individuality.js';
 import { rememberEvent, softenEventMemory, fadeEventMemory, recallEvent, memoryCareCandidates } from './event-memory.js';
 import { bindDialogKeyboard } from './dialog-keyboard.js';
 import { readProfileSnapshot, createBehaviorStates, createReliefMemory } from './profile-state.js';
